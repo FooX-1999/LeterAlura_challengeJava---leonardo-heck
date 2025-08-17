@@ -31,7 +31,7 @@ public class Livro {
         this.downloadCount = downloadCount;
     }
 
-    public Livro(LivroDTO livroDTO, Autor autor) {}
+    public Livro(LivroDTO livroDTO) {}
 
     public Long getId() {
         return id;

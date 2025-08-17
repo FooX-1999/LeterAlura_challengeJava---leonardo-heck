@@ -36,7 +36,7 @@ public class LivroController {
         }
 
         // Cria a entidade Livro e associa o autor
-        Livro livro = new Livro(livroDTO, autor);
+        Livro livro = new Livro(livroDTO);
 
         // Salva o livro no banco de dados
         livroRepository.save(livro);
